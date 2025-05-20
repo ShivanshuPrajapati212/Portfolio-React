@@ -5,15 +5,15 @@ import { LuMail } from "react-icons/lu";
 
 const Introduction = () => {
   return (
-    <div className="flex items-center justify-between py-24 relative">
+    <div className="flex max-lg:flex-col items-center justify-between py-24 max-lg:py-5 relative">
       <div className="">
-        <div className="text-4xl text-white my-2">
-          Hi, from <span className="font-semibold">Shivanshu Prajapati</span>{" "}
-          <span className="text-5xl cursor-pointer inline-block transition-transform hover:rotate-[20deg] animate-wave">
+        <div className="text-4xl max-lg:text-xl text-white my-2">
+          Hi, from <span className="font-bold">Shivanshu Prajapati</span>{" "}
+          <span className="text-5xl max-lg:text-2xl cursor-pointer inline-block transition-transform hover:rotate-[20deg] animate-wave">
             👋
           </span>
         </div>
-        <div className="text-2xl heading">
+        <div className="text-2xl max-lg:text-lg heading">
           14 yo{" "}
           <span className="font-semibold text-zinc-300 underline decoration-wavy">
             Full Stack Developer
@@ -23,8 +23,8 @@ const Introduction = () => {
             Lucknow, India
           </span>
         </div>
-        <div className="my-10 text-lg">
-        <div>I love building SaaS Products</div>
+        <div className="my-10 text-lg max-lg:text-md">
+        <div>I love building SaaS Products,</div>
         <div>and I don't have a degree.</div>
         </div>
         <div className="list-none text-2xl flex gap-5">

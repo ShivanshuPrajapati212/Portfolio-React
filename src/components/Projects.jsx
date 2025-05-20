@@ -15,10 +15,11 @@ const Projects = () => {
       <h2 className='text-3xl my-5 font-medium'>Projects</h2>
       <ul className='heading flex flex-col gap-4'>
         <div className='relative'>
-        <span class="bg-zinc-700 text-zinc-300 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm absolute -top-3 right-4 z-10">In Progress</span>
-        <li className='flex gap-8 bg-zinc-900 p-4 rounded-lg relative border-2 border-zinc-800 hover:border-zinc-600 ease-in-out duration-100'>
-            <div className=''>
-                <a href={whimpsyai} target='_blank'><img src={whimpsyai} alt="" className='h-52 min-w-96 max-w-96 rounded-lg'/></a>
+        <span class="bg-zinc-700 text-zinc
+        -300 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm absolute -top-3 right-4 z-10">In Progress</span>
+        <li className='flex max-lg:flex-col gap-8 bg-zinc-900 p-4 rounded-lg relative border-2 border-zinc-800 hover:border-zinc-600 ease-in-out duration-100'>
+            <div className='flex max-lg:justify-center'>
+                <a href={whimpsyai} target='_blank'><img src={whimpsyai} alt="" className='h-52 max-lg:min-w-80 max-lg:max-w-80 min-w-96 max-w-96 rounded-lg'/></a>
             </div>
             <div className=''>
                 <h3 className='text-2xl font-semibold mb-3 '>WhimpsyAI</h3>
@@ -30,7 +31,7 @@ const Projects = () => {
                   <div className='text-2xl text-green-700 bg-[#0080003f] border-[1px] p-1 rounded-md inline-block'><SiMongodb/></div>
                   <div className='text-2xl text-cyan-600 bg-[#00d1ce41] border-[1px] p-1 rounded-md inline-block'><SiTailwindcss/></div>
                 </div>
-                <div className='absolute bottom-4'>
+                <div className='lg:absolute max-lg:py-2 bottom-4'>
                 <button type="button" class="text-white bg-zinc-700 hover:bg-zinc-800 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 cursor-pointer">
                   <a href="https://whimpsyai.vercel.app" target='_blank' className='flex gap-1 items-center justify-center'><CiGlobe className='text-xl'/> <span>Live Demo</span></a>
                   </button>
@@ -41,9 +42,9 @@ const Projects = () => {
             </div>
         </li>
         </div>
-        <li className='flex gap-8 bg-zinc-900 p-4 rounded-lg relative border-2 border-zinc-800 hover:border-zinc-600 ease-in-out duration-100'>
-            <div className=''>
-                <a href={windows_on_web} target='_blank'><img src={windows_on_web} alt="" className='h-52 min-w-96 max-w-96 rounded-lg'/></a>
+        <li className='flex max-lg:flex-col gap-8 bg-zinc-900 p-4 rounded-lg relative border-2 border-zinc-800 hover:border-zinc-600 ease-in-out duration-100'>
+            <div className='flex max-lg:justify-center'>
+                <a href={windows_on_web} target='_blank'><img src={windows_on_web} alt="" className='h-52 max-lg:min-w-80 max-lg:max-w-80 min-w-96 max-w-96 rounded-lg'/></a>
             </div>
             <div className=''>
                 <h3 className='text-2xl font-semibold mb-3 '>Windows on Web</h3>
@@ -52,7 +53,7 @@ const Projects = () => {
                   <div className='text-2xl text-[#008080] bg-[#0080804b] border-[1px] p-1 rounded-md inline-block'><FaReact/></div>
                   <div className='text-2xl text-cyan-600 bg-[#00d1ce41] border-[1px] p-1 rounded-md inline-block'><SiTailwindcss/></div>
                 </div>
-                <div className='absolute bottom-4'>
+                <div className='lg:absolute max-lg:py-2 bottom-4'>
                 <button type="button" class="text-white bg-zinc-700 hover:bg-zinc-800 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 cursor-pointer">
                   <a href="https://windows-on-web.vercel.app/" target='_blank' className='flex gap-1 items-center justify-center'><CiGlobe className='text-xl'/> <span>Live Demo</span></a>
                   </button>
@@ -62,9 +63,9 @@ const Projects = () => {
                 </div>
             </div>
         </li>
-        <li className='flex gap-8 bg-zinc-900 p-4 rounded-lg relative border-2 border-zinc-800 hover:border-zinc-600 ease-in-out duration-100'>
-            <div className=''>
-                <a href={webgen} target='_blank'><img src={webgen} alt="" className='h-52 min-w-96 max-w-96 rounded-lg'/></a>
+        <li className='flex max-lg:flex-col gap-8 bg-zinc-900 p-4 rounded-lg relative border-2 border-zinc-800 hover:border-zinc-600 ease-in-out duration-100'>
+            <div className='flex max-lg:justify-center'>
+                <a href={webgen} target='_blank'><img src={webgen} alt="" className='h-52 max-lg:min-w-80 max-lg:max-w-80 min-w-96 max-w-96 rounded-lg'/></a>
             </div>
             <div className=''>
                 <h3 className='text-2xl font-semibold mb-3 '>WebGen</h3>
@@ -76,7 +77,7 @@ const Projects = () => {
                   <div className='text-2xl text-green-700 bg-[#0080003f] border-[1px] p-1 rounded-md inline-block'><SiMongodb/></div>
                   <div className='text-2xl text-cyan-600 bg-[#00d1ce41] border-[1px] p-1 rounded-md inline-block'><SiTailwindcss/></div>
                 </div>
-                <div className='absolute bottom-4'>
+                <div className='lg:absolute max-lg:py-2 bottom-4'>
                 <button type="button" class="text-white bg-zinc-700 hover:bg-zinc-800 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 cursor-pointer">
                   <a href="https://webgen-shivanshu.vercel.app/" target='_blank' className='flex gap-1 items-center justify-center'><CiGlobe className='text-xl'/> <span>Live Demo</span></a>
                   </button>

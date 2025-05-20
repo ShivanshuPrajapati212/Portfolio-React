@@ -11,8 +11,8 @@ import { FaAws } from "react-icons/fa";
 const Skills = () => {
   return (
     <div className='text-white'>
-        <h2 className='text-3xl my-5 font-medium'>Skills</h2>
-      <ul className='grid-cols-2 grid gap-3 heading'>
+        <h2 className='text-3xl my-10 font-medium'>Skills</h2>
+      <ul className='grid-cols-2 max-lg:grid-cols-1 grid gap-3 heading'>
         <li className='list-none flex gap-4 items-center bg-zinc-900 px-4 py-3 rounded-lg border-[2px] border-zinc-800 hover:border-zinc-600 ease-in-out duration-100'>
             <div className='text-2xl text-[#008080] bg-[#0080804b] border-[1px] p-1 rounded-md'><FaReact/></div>
             <div><h3 className='text-lg font-medium'>React.js</h3>
