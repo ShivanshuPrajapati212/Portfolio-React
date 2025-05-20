@@ -5,7 +5,7 @@ import { LuMail } from "react-icons/lu";
 
 const Introduction = () => {
   return (
-    <div className="flex items-center justify-between my-24 relative">
+    <div className="flex items-center justify-between py-24 relative">
       <div className="">
         <div className="text-4xl text-white my-2">
           Hi, from <span className="font-semibold">Shivanshu Prajapati</span>{" "}
@@ -37,7 +37,7 @@ const Introduction = () => {
         <img
           src={profile}
           alt=""
-          className="h-48 rounded-3xl my-6 border-4 border-zinc-500 hover:border-[#2ecc71] ease-in-out transition-all duration-200"
+          className="h-48 w-48 rounded-3xl my-6 border-4 border-zinc-500 hover:border-[#2ecc71] ease-in-out transition-all duration-200"
         />
       </div>
     </div>
