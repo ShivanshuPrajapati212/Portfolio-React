@@ -16,7 +16,7 @@ const Projects = () => {
       <ul className='heading flex flex-col gap-4'>
         <div className='relative'>
         <span class="bg-zinc-700 text-zinc
-        -300 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm absolute -top-3 right-4 z-10">In Progress</span>
+        -300 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm absolute -top-3 right-4 z-10">Startup</span>
         <li className='flex max-lg:flex-col gap-8 bg-zinc-900 p-4 rounded-lg relative border-2 border-zinc-800 hover:border-zinc-600 ease-in-out duration-100'>
             <div className='flex max-lg:justify-center'>
                 <a href={whimpsyai} target='_blank'><img src={whimpsyai} alt="" className='h-52 max-lg:min-w-80 max-lg:max-w-80 min-w-96 max-w-96 rounded-lg'/></a>
@@ -33,10 +33,10 @@ const Projects = () => {
                 </div>
                 <div className='lg:absolute max-lg:py-2 bottom-4'>
                 <button type="button" class="text-white bg-zinc-700 hover:bg-zinc-800 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 cursor-pointer">
-                  <a href="https://whimpsyai.vercel.app" target='_blank' className='flex gap-1 items-center justify-center'><CiGlobe className='text-xl'/> <span>Live Demo</span></a>
+                  <a href="https://whimpsyai.com" target='_blank' className='flex gap-1 items-center justify-center'><CiGlobe className='text-xl'/> <span>Live Demo</span></a>
                   </button>
-                <button type="button" class="text-white bg-zinc-700 hover:bg-zinc-800 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 cursor-pointer">
-                  <a href="https://github.com/ShivanshuPrajapati212/WhimpsyAI-Backend" target='_blank' className='flex gap-1 items-center justify-center'><IoLogoGithub className='text-xl'/> <span>Source</span></a>
+                <button type="button" class="text-white bg-zinc-800 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 cursor-pointer" disabled>
+                  <a target='_blank' className='flex gap-1 items-center justify-center'><IoLogoGithub className='text-xl'/> <span>Source - Private</span></a>
                   </button>
                 </div>
             </div>
